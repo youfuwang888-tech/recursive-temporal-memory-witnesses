@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the archived preprint."
+title: "Recursive Binary Words as Dimension-Bounded Temporal Memory Witnesses"
+type: article
+authors:
+  - family-names: "Wang"
+    given-names: "Youfu"
+    orcid: "https://orcid.org/0009-0005-5998-6024"
+    email: "youfuwang888@gmail.com"
+year: 2026
+license: "CC-BY-4.0"
+repository-code: "https://github.com/youfuwang888-tech/recursive-temporal-memory-witnesses"
+abstract: >-
+  Exact deterministic memory complexity and certified equal-dimension
+  classical-quantum temporal separations for finite Thue-Morse words under a
+  stationary clock-free generation model.

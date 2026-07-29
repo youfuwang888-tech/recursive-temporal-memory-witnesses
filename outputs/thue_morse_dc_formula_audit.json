@@ -1,0 +1,641 @@
+[
+  {
+    "level": 0,
+    "length": 1,
+    "dc": 1,
+    "predicted_dc": 1,
+    "formula_match": true,
+    "minimal_tail": 0,
+    "minimal_cycle": 1,
+    "minimal_valid_splits": [
+      {
+        "tail": 0,
+        "cycle": 1,
+        "generated_suffix": 0
+      }
+    ],
+    "longest_border": 0,
+    "border_shifts": [],
+    "longest_repeated_suffix": 0,
+    "suffix_positions": [],
+    "maximum_shift_match": 0,
+    "maximum_shift_match_witnesses": [],
+    "quarter": null,
+    "quarter_suffix_match": null,
+    "quarter_shift_match": null,
+    "four_block_identity": null,
+    "overlap_free": true
+  },
+  {
+    "level": 1,
+    "length": 2,
+    "dc": 2,
+    "predicted_dc": 2,
+    "formula_match": true,
+    "minimal_tail": 0,
+    "minimal_cycle": 2,
+    "minimal_valid_splits": [
+      {
+        "tail": 0,
+        "cycle": 2,
+        "generated_suffix": 0
+      },
+      {
+        "tail": 1,
+        "cycle": 1,
+        "generated_suffix": 0
+      }
+    ],
+    "longest_border": 0,
+    "border_shifts": [],
+    "longest_repeated_suffix": 0,
+    "suffix_positions": [],
+    "maximum_shift_match": 0,
+    "maximum_shift_match_witnesses": [],
+    "quarter": null,
+    "quarter_suffix_match": null,
+    "quarter_shift_match": null,
+    "four_block_identity": null,
+    "overlap_free": true
+  },
+  {
+    "level": 2,
+    "length": 4,
+    "dc": 3,
+    "predicted_dc": 3,
+    "formula_match": true,
+    "minimal_tail": 0,
+    "minimal_cycle": 3,
+    "minimal_valid_splits": [
+      {
+        "tail": 0,
+        "cycle": 3,
+        "generated_suffix": 1
+      }
+    ],
+    "longest_border": 1,
+    "border_shifts": [
+      3
+    ],
+    "longest_repeated_suffix": 1,
+    "suffix_positions": [
+      0
+    ],
+    "maximum_shift_match": 1,
+    "maximum_shift_match_witnesses": [
+      {
+        "shift": 1,
+        "start": 1
+      },
+      {
+        "shift": 3,
+        "start": 0
+      }
+    ],
+    "quarter": 1,
+    "quarter_suffix_match": true,
+    "quarter_shift_match": true,
+    "four_block_identity": true,
+    "overlap_free": true
+  },
+  {
+    "level": 3,
+    "length": 8,
+    "dc": 6,
+    "predicted_dc": 6,
+    "formula_match": true,
+    "minimal_tail": 0,
+    "minimal_cycle": 6,
+    "minimal_valid_splits": [
+      {
+        "tail": 0,
+        "cycle": 6,
+        "generated_suffix": 2
+      },
+      {
+        "tail": 3,
+        "cycle": 3,
+        "generated_suffix": 2
+      }
+    ],
+    "longest_border": 2,
+    "border_shifts": [
+      6
+    ],
+    "longest_repeated_suffix": 2,
+    "suffix_positions": [
+      0,
+      3
+    ],
+    "maximum_shift_match": 2,
+    "maximum_shift_match_witnesses": [
+      {
+        "shift": 2,
+        "start": 2
+      },
+      {
+        "shift": 3,
+        "start": 0
+      },
+      {
+        "shift": 3,
+        "start": 3
+      },
+      {
+        "shift": 6,
+        "start": 0
+      }
+    ],
+    "quarter": 2,
+    "quarter_suffix_match": true,
+    "quarter_shift_match": true,
+    "four_block_identity": true,
+    "overlap_free": true
+  },
+  {
+    "level": 4,
+    "length": 16,
+    "dc": 12,
+    "predicted_dc": 12,
+    "formula_match": true,
+    "minimal_tail": 0,
+    "minimal_cycle": 12,
+    "minimal_valid_splits": [
+      {
+        "tail": 0,
+        "cycle": 12,
+        "generated_suffix": 4
+      },
+      {
+        "tail": 6,
+        "cycle": 6,
+        "generated_suffix": 4
+      }
+    ],
+    "longest_border": 4,
+    "border_shifts": [
+      12
+    ],
+    "longest_repeated_suffix": 4,
+    "suffix_positions": [
+      0,
+      6
+    ],
+    "maximum_shift_match": 4,
+    "maximum_shift_match_witnesses": [
+      {
+        "shift": 4,
+        "start": 4
+      },
+      {
+        "shift": 6,
+        "start": 0
+      },
+      {
+        "shift": 6,
+        "start": 6
+      },
+      {
+        "shift": 12,
+        "start": 0
+      }
+    ],
+    "quarter": 4,
+    "quarter_suffix_match": true,
+    "quarter_shift_match": true,
+    "four_block_identity": true,
+    "overlap_free": true
+  },
+  {
+    "level": 5,
+    "length": 32,
+    "dc": 24,
+    "predicted_dc": 24,
+    "formula_match": true,
+    "minimal_tail": 0,
+    "minimal_cycle": 24,
+    "minimal_valid_splits": [
+      {
+        "tail": 0,
+        "cycle": 24,
+        "generated_suffix": 8
+      },
+      {
+        "tail": 12,
+        "cycle": 12,
+        "generated_suffix": 8
+      }
+    ],
+    "longest_border": 8,
+    "border_shifts": [
+      24
+    ],
+    "longest_repeated_suffix": 8,
+    "suffix_positions": [
+      0,
+      12
+    ],
+    "maximum_shift_match": 8,
+    "maximum_shift_match_witnesses": [
+      {
+        "shift": 8,
+        "start": 8
+      },
+      {
+        "shift": 12,
+        "start": 0
+      },
+      {
+        "shift": 12,
+        "start": 12
+      },
+      {
+        "shift": 24,
+        "start": 0
+      }
+    ],
+    "quarter": 8,
+    "quarter_suffix_match": true,
+    "quarter_shift_match": true,
+    "four_block_identity": true,
+    "overlap_free": true
+  },
+  {
+    "level": 6,
+    "length": 64,
+    "dc": 48,
+    "predicted_dc": 48,
+    "formula_match": true,
+    "minimal_tail": 0,
+    "minimal_cycle": 48,
+    "minimal_valid_splits": [
+      {
+        "tail": 0,
+        "cycle": 48,
+        "generated_suffix": 16
+      },
+      {
+        "tail": 24,
+        "cycle": 24,
+        "generated_suffix": 16
+      }
+    ],
+    "longest_border": 16,
+    "border_shifts": [
+      48
+    ],
+    "longest_repeated_suffix": 16,
+    "suffix_positions": [
+      0,
+      24
+    ],
+    "maximum_shift_match": 16,
+    "maximum_shift_match_witnesses": [
+      {
+        "shift": 16,
+        "start": 16
+      },
+      {
+        "shift": 24,
+        "start": 0
+      },
+      {
+        "shift": 24,
+        "start": 24
+      },
+      {
+        "shift": 48,
+        "start": 0
+      }
+    ],
+    "quarter": 16,
+    "quarter_suffix_match": true,
+    "quarter_shift_match": true,
+    "four_block_identity": true,
+    "overlap_free": true
+  },
+  {
+    "level": 7,
+    "length": 128,
+    "dc": 96,
+    "predicted_dc": 96,
+    "formula_match": true,
+    "minimal_tail": 0,
+    "minimal_cycle": 96,
+    "minimal_valid_splits": [
+      {
+        "tail": 0,
+        "cycle": 96,
+        "generated_suffix": 32
+      },
+      {
+        "tail": 48,
+        "cycle": 48,
+        "generated_suffix": 32
+      }
+    ],
+    "longest_border": 32,
+    "border_shifts": [
+      96
+    ],
+    "longest_repeated_suffix": 32,
+    "suffix_positions": [
+      0,
+      48
+    ],
+    "maximum_shift_match": 32,
+    "maximum_shift_match_witnesses": [
+      {
+        "shift": 32,
+        "start": 32
+      },
+      {
+        "shift": 48,
+        "start": 0
+      },
+      {
+        "shift": 48,
+        "start": 48
+      },
+      {
+        "shift": 96,
+        "start": 0
+      }
+    ],
+    "quarter": 32,
+    "quarter_suffix_match": true,
+    "quarter_shift_match": true,
+    "four_block_identity": true,
+    "overlap_free": true
+  },
+  {
+    "level": 8,
+    "length": 256,
+    "dc": 192,
+    "predicted_dc": 192,
+    "formula_match": true,
+    "minimal_tail": 0,
+    "minimal_cycle": 192,
+    "minimal_valid_splits": [
+      {
+        "tail": 0,
+        "cycle": 192,
+        "generated_suffix": 64
+      },
+      {
+        "tail": 96,
+        "cycle": 96,
+        "generated_suffix": 64
+      }
+    ],
+    "longest_border": 64,
+    "border_shifts": [
+      192
+    ],
+    "longest_repeated_suffix": 64,
+    "suffix_positions": [
+      0,
+      96
+    ],
+    "maximum_shift_match": 64,
+    "maximum_shift_match_witnesses": [
+      {
+        "shift": 64,
+        "start": 64
+      },
+      {
+        "shift": 96,
+        "start": 0
+      },
+      {
+        "shift": 96,
+        "start": 96
+      },
+      {
+        "shift": 192,
+        "start": 0
+      }
+    ],
+    "quarter": 64,
+    "quarter_suffix_match": true,
+    "quarter_shift_match": true,
+    "four_block_identity": true,
+    "overlap_free": true
+  },
+  {
+    "level": 9,
+    "length": 512,
+    "dc": 384,
+    "predicted_dc": 384,
+    "formula_match": true,
+    "minimal_tail": 0,
+    "minimal_cycle": 384,
+    "minimal_valid_splits": [
+      {
+        "tail": 0,
+        "cycle": 384,
+        "generated_suffix": 128
+      },
+      {
+        "tail": 192,
+        "cycle": 192,
+        "generated_suffix": 128
+      }
+    ],
+    "longest_border": 128,
+    "border_shifts": [
+      384
+    ],
+    "longest_repeated_suffix": 128,
+    "suffix_positions": [
+      0,
+      192
+    ],
+    "maximum_shift_match": 128,
+    "maximum_shift_match_witnesses": [
+      {
+        "shift": 128,
+        "start": 128
+      },
+      {
+        "shift": 192,
+        "start": 0
+      },
+      {
+        "shift": 192,
+        "start": 192
+      },
+      {
+        "shift": 384,
+        "start": 0
+      }
+    ],
+    "quarter": 128,
+    "quarter_suffix_match": true,
+    "quarter_shift_match": true,
+    "four_block_identity": true,
+    "overlap_free": "not_rechecked"
+  },
+  {
+    "level": 10,
+    "length": 1024,
+    "dc": 768,
+    "predicted_dc": 768,
+    "formula_match": true,
+    "minimal_tail": 0,
+    "minimal_cycle": 768,
+    "minimal_valid_splits": [
+      {
+        "tail": 0,
+        "cycle": 768,
+        "generated_suffix": 256
+      },
+      {
+        "tail": 384,
+        "cycle": 384,
+        "generated_suffix": 256
+      }
+    ],
+    "longest_border": 256,
+    "border_shifts": [
+      768
+    ],
+    "longest_repeated_suffix": 256,
+    "suffix_positions": [
+      0,
+      384
+    ],
+    "maximum_shift_match": 256,
+    "maximum_shift_match_witnesses": [
+      {
+        "shift": 256,
+        "start": 256
+      },
+      {
+        "shift": 384,
+        "start": 0
+      },
+      {
+        "shift": 384,
+        "start": 384
+      },
+      {
+        "shift": 768,
+        "start": 0
+      }
+    ],
+    "quarter": 256,
+    "quarter_suffix_match": true,
+    "quarter_shift_match": true,
+    "four_block_identity": true,
+    "overlap_free": "not_rechecked"
+  },
+  {
+    "level": 11,
+    "length": 2048,
+    "dc": 1536,
+    "predicted_dc": 1536,
+    "formula_match": true,
+    "minimal_tail": 0,
+    "minimal_cycle": 1536,
+    "minimal_valid_splits": [
+      {
+        "tail": 0,
+        "cycle": 1536,
+        "generated_suffix": 512
+      },
+      {
+        "tail": 768,
+        "cycle": 768,
+        "generated_suffix": 512
+      }
+    ],
+    "longest_border": 512,
+    "border_shifts": [
+      1536
+    ],
+    "longest_repeated_suffix": 512,
+    "suffix_positions": [
+      0,
+      768
+    ],
+    "maximum_shift_match": 512,
+    "maximum_shift_match_witnesses": [
+      {
+        "shift": 512,
+        "start": 512
+      },
+      {
+        "shift": 768,
+        "start": 0
+      },
+      {
+        "shift": 768,
+        "start": 768
+      },
+      {
+        "shift": 1536,
+        "start": 0
+      }
+    ],
+    "quarter": 512,
+    "quarter_suffix_match": true,
+    "quarter_shift_match": true,
+    "four_block_identity": true,
+    "overlap_free": "not_rechecked"
+  },
+  {
+    "level": 12,
+    "length": 4096,
+    "dc": 3072,
+    "predicted_dc": 3072,
+    "formula_match": true,
+    "minimal_tail": 0,
+    "minimal_cycle": 3072,
+    "minimal_valid_splits": [
+      {
+        "tail": 0,
+        "cycle": 3072,
+        "generated_suffix": 1024
+      },
+      {
+        "tail": 1536,
+        "cycle": 1536,
+        "generated_suffix": 1024
+      }
+    ],
+    "longest_border": 1024,
+    "border_shifts": [
+      3072
+    ],
+    "longest_repeated_suffix": 1024,
+    "suffix_positions": [
+      0,
+      1536
+    ],
+    "maximum_shift_match": 1024,
+    "maximum_shift_match_witnesses": [
+      {
+        "shift": 1024,
+        "start": 1024
+      },
+      {
+        "shift": 1536,
+        "start": 0
+      },
+      {
+        "shift": 1536,
+        "start": 1536
+      },
+      {
+        "shift": 3072,
+        "start": 0
+      }
+    ],
+    "quarter": 1024,
+    "quarter_suffix_match": true,
+    "quarter_shift_match": true,
+    "four_block_identity": true,
+    "overlap_free": "not_rechecked"
+  }
+]

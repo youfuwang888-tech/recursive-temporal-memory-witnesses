@@ -1,0 +1,20 @@
+{
+  "word": "0110100110010110",
+  "length": 16,
+  "dimension": 2,
+  "method": "outward-rounded floating cover followed by exact-rational verification of every box in the final cover",
+  "target_exact": "1/2000",
+  "processed_float_nodes": 176111,
+  "final_cover_boxes": 176112,
+  "infeasible_children": 0,
+  "float_global_upper": 0.0004999992890338239,
+  "float_stage_seconds": 45.17770171165466,
+  "exact_verified_boxes": 176112,
+  "exact_boxes_at_or_above_target": 0,
+  "exact_global_upper_numerator": 61501490410484485236688467728540681191462717418150245434457422044496910062697479975159290440193120827286727301339606018315998016561771410795712315114452243936334931050259256485838849923606936603666219328350058700843763946629562675785085846951985638656704515,
+  "exact_global_upper_denominator": 123003155723136208567847447683223664415731869180715065944930703618254955521953492303010368693540149343822709050322214299552689203876695953600699775494388206142090885899729347827083318884583758435450548517566916626912548274908112766882031433928533568160966639616,
+  "exact_global_upper_decimal": 0.0004999992890338211,
+  "exact_stage_seconds": 74.6836907863617,
+  "certified_below_1_over_2000": true,
+  "coverage_argument": "The root is the product of two 4-outcome simplices in six independent coordinates. Every processed feasible box is replaced by its two feasible children; infeasible children have empty intersection with the domain. Hence the final queue covers the full feasible domain. Every final box is then verified exactly."
+}

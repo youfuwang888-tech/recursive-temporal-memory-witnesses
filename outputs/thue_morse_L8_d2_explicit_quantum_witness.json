@@ -1,0 +1,45 @@
+{
+  "target_word": "01101001",
+  "memory_dimension": 2,
+  "kraus_rank_per_outcome": 1,
+  "amplitudes": "real",
+  "initial_state_vector": [
+    0.9587881972258971,
+    -0.2841217923009678
+  ],
+  "K0": [
+    [
+      -0.2611008859939754,
+      -0.26327726462230505
+    ],
+    [
+      0.8949872834266452,
+      -0.2793124400340019
+    ]
+  ],
+  "K1": [
+    [
+      -0.30025982098658205,
+      -0.8484161857574963
+    ],
+    [
+      0.20166340703970312,
+      -0.364499133771194
+    ]
+  ],
+  "completeness_matrix": [
+    [
+      1.0000000000000004,
+      1.6653345369377348e-16
+    ],
+    [
+      1.6653345369377348e-16,
+      1.0000000000000004
+    ]
+  ],
+  "completeness_frobenius_error": 6.707437923744493e-16,
+  "sequence_probability": 0.041469816596040404,
+  "classical_best_found": 0.016434148019480888,
+  "ratio_to_classical_best_found": 2.52339315350467,
+  "claim_boundary": "Explicit quantum lower bound. The classical comparison remains numerical until a global upper certificate is completed."
+}

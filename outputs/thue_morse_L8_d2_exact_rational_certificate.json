@@ -1,0 +1,15 @@
+{
+  "word": "01101001",
+  "dimension": 2,
+  "method": "exact-rational best-first interval branch-and-bound",
+  "processed_nodes": 130000,
+  "queued_nodes": 130001,
+  "elapsed_seconds": 45.15637469291687,
+  "exact_global_upper_numerator": 16282708641,
+  "exact_global_upper_denominator": 549755813888,
+  "global_upper_decimal": 0.029618074479003553,
+  "target_exact": "3/100",
+  "explicit_quantum_witness": 0.041469816596040404,
+  "separation_certified": true,
+  "claim": "Every stationary two-state classical generator has target-word probability below 3/100."
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "deterministic_levels_checked": 13,
+  "L8_classical_exact_upper": 0.029618074479003553,
+  "L8_quantum_interval_lower": 0.04146981659604025,
+  "L16_classical_exact_upper": 0.0004999992890338211,
+  "L16_quantum_interval_lower": 0.0006964519920865576,
+  "manuscript_pdf_bytes": 161203
+}

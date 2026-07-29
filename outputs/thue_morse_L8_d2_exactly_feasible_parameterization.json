@@ -1,0 +1,35 @@
+{
+  "target_word": "01101001",
+  "definition": "K1 = R(phi) sqrt(I - K0^T K0); psi=(cos(theta),sin(theta))",
+  "theta_radians": -0.2880903478104165,
+  "phi_radians": 2.1351675998196673,
+  "K0_printed": [
+    [
+      -0.261100885994,
+      -0.263277264622
+    ],
+    [
+      0.894987283427,
+      -0.279312440034
+    ]
+  ],
+  "residual_eigenvalues": [
+    0.08787450796110066,
+    0.895619224651417
+  ],
+  "derived_K1": [
+    [
+      -0.3002598209862222,
+      -0.848416185757665
+    ],
+    [
+      0.20166340703863164,
+      -0.36449913377102283
+    ]
+  ],
+  "completeness_frobenius_error": 2.220446049250313e-16,
+  "state_norm_error": 0.0,
+  "target_word_probability": 0.04146981659604028,
+  "above_certified_classical_threshold_0p03": true,
+  "margin_above_0p03": 0.01146981659604028
+}

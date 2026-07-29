@@ -1,0 +1,15 @@
+{
+  "target_word": "0110100110010110",
+  "level": 4,
+  "length": 16,
+  "interval_method": "mpmath.iv outward interval arithmetic, 80 decimal digits",
+  "probability_lower": 0.0006964519920865576,
+  "probability_upper": 0.0006964519920865576,
+  "probability_interval_80d": "[0.000696451992086557681000281647616742279956211082413619246956166574362751836580248215858151204, 0.000696451992086557681000281647616742279956211082413619246956166574362751836580249901168505996]",
+  "certified_lower_threshold": 0.00069,
+  "certified_above_threshold": true,
+  "residual_determinant_interval": [
+    0.10195825279761285,
+    0.10195825279761285
+  ]
+}

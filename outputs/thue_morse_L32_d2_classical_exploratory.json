@@ -1,0 +1,14 @@
+[
+  {
+    "level": 5,
+    "length": 32,
+    "deterministic_complexity": 24,
+    "dimension": 2,
+    "best_probability": 6.391629639225097e-09,
+    "best_log_probability": -18.8682765714588,
+    "successful_restarts": 48,
+    "restarts": 48,
+    "iterations_best": 46,
+    "seed": 20265731
+  }
+]

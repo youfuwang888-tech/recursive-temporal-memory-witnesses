@@ -1,0 +1,87 @@
+{
+  "target_word": "01101001",
+  "classical_certified_upper_bound_used": 0.03,
+  "ideal_quantum_probability_recomputed": 0.041469816596040404,
+  "ideal_quantum_probability_file": 0.041469816596040404,
+  "recomputation_absolute_error": 0.0,
+  "noise_model": "Per round: with weight 1-eta apply the ideal outcome Kraus map; with weight eta output a fair random bit and reset the two-dimensional memory to the maximally mixed state.",
+  "critical_eta_where_probability_equals_0p03": 0.08544932571425276,
+  "noise_table": [
+    {
+      "eta": 0.0,
+      "target_word_probability": 0.041469816596040404,
+      "above_classical_bound": true
+    },
+    {
+      "eta": 0.01,
+      "target_word_probability": 0.03990410731610207,
+      "above_classical_bound": true
+    },
+    {
+      "eta": 0.02,
+      "target_word_probability": 0.03840292199332559,
+      "above_classical_bound": true
+    },
+    {
+      "eta": 0.03,
+      "target_word_probability": 0.036963706504344995,
+      "above_classical_bound": true
+    },
+    {
+      "eta": 0.04,
+      "target_word_probability": 0.035583998794335374,
+      "above_classical_bound": true
+    },
+    {
+      "eta": 0.05,
+      "target_word_probability": 0.0342614260142299,
+      "above_classical_bound": true
+    },
+    {
+      "eta": 0.075,
+      "target_word_probability": 0.031190159959754687,
+      "above_classical_bound": true
+    },
+    {
+      "eta": 0.08544932571425276,
+      "target_word_probability": 0.029999999999999975,
+      "above_classical_bound": false
+    },
+    {
+      "eta": 0.1,
+      "target_word_probability": 0.0284284348210447,
+      "above_classical_bound": false
+    }
+  ],
+  "exact_binomial_shot_designs": {
+    "alpha_0p001": {
+      "ideal_90_percent_power": {
+        "shots": 4877,
+        "reject_if_target_count_at_least": 185,
+        "achieved_type_I_error": 0.0009802237534676775,
+        "achieved_power_at_witness": 0.9000914667052786
+      },
+      "eta_0p02_90_percent_power": {
+        "shots": 8788,
+        "reject_if_target_count_at_least": 315,
+        "achieved_type_I_error": 0.0009739037098842127,
+        "achieved_power_at_witness": 0.9000034436399215
+      }
+    },
+    "five_sigma_one_sided": {
+      "ideal_90_percent_power": {
+        "shots": 9957,
+        "reject_if_target_count_at_least": 388,
+        "achieved_type_I_error": 2.8450165604442535e-07,
+        "achieved_power_at_witness": 0.900181656253534
+      },
+      "eta_0p02_90_percent_power": {
+        "shots": 17979,
+        "reject_if_target_count_at_least": 658,
+        "achieved_type_I_error": 2.8155897609533047e-07,
+        "achieved_power_at_witness": 0.9001774321631882
+      }
+    }
+  },
+  "claim_boundary": "Robustness is conditional on the stated trusted noise model and the certified p_classical<0.03 bound. Device-independent and arbitrary-noise robustness are not claimed."
+}

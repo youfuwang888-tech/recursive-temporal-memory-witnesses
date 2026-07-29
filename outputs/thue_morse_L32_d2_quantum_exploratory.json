@@ -1,0 +1,17 @@
+[
+  {
+    "level": 5,
+    "length": 32,
+    "deterministic_complexity": 24,
+    "dimension": 2,
+    "kraus_rank": 1,
+    "amplitude_field": "real",
+    "best_probability": 2.4544449253289653e-07,
+    "best_log_probability": -15.220195014938554,
+    "completeness_error": 1.1775693440128312e-16,
+    "successful_restarts": 32,
+    "restarts": 32,
+    "maxiter": 1400,
+    "seed": 20265731
+  }
+]
