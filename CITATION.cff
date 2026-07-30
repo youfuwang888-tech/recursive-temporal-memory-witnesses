@@ -8,8 +8,10 @@ authors:
     orcid: "https://orcid.org/0009-0005-5998-6024"
     email: "youfuwang888@gmail.com"
 year: 2026
+doi: "10.5281/zenodo.21695591"
 license: "CC-BY-4.0"
 repository-code: "https://github.com/youfuwang888-tech/recursive-temporal-memory-witnesses"
+url: "https://zenodo.org/records/21695591"
 abstract: >-
   Exact deterministic memory complexity and certified equal-dimension
   classical-quantum temporal separations for finite Thue-Morse words under a
